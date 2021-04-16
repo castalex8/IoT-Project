@@ -1,0 +1,39 @@
+some useful resource:
+
+----------------token for telegram bot----------------
+1461110529:AAGM-pRZrQINcEFae-0sGMng630laeAQACM  -> adrenaline
+1794260533:AAHmR78HyAe9vy5Gm8IqPcLuBxyGDS3JjFM  -> castalex8
+
+----------------How to show options in telegram bot----------------
+For that, you have to talk to BotFather.
+
+In the Telegram App, open the chat with BotFather.
+
+Send him /setcommands. He will present you with a list of your bots.
+
+Pick the bot for which you want to set the command menu.
+
+Compose and send the command list. Using your image as an example, these 4 lines should do:
+
+start - Description 1
+menu - Description 2
+help - Description 3
+stop - Description 4
+
+Note that each line should start with lowercase, and no slashes. There should also be spaces around the - sign.
+
+Once you complete this process, exit and kill the Telegram App. Re-open it, go to the chat with your target bot,
+type a / (or tab on the / button next to the text field), the command menu should come up.
+
+we use:
+start - welcome message
+help - help message
+show_data - show all the user data
+set_data - set all the user data
+find_book - find a book with specific title
+reserve_book - reserve a book with specific title
+freespace - check if the available bridge is free
+sign_in - sign_in user to available bridge
+qr_code - show your qr_code
+
+-------------------------------------------------------------------
