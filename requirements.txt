@@ -1,6 +1,6 @@
 opencv-python==4.5.1.48
 pyzbar==0.1.8
-requests==2.25.1
+requests==2.31.0
 qrcode==6.1
 pillow==8.1.2
 paho-mqtt==1.5.1
